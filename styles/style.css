@@ -4,6 +4,17 @@
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 900px) {
+  .features {
+    margin: 6rem 0;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6rem;
+  }
+}
+
 .column {
   width: 26rem;
   text-align: center;

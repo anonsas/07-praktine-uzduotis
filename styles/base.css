@@ -17,6 +17,17 @@
 html {
   font-size: 62.5%;
 }
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
 
 body {
   box-sizing: border-box;
