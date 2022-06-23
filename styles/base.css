@@ -1,8 +1,8 @@
 :root {
   --primary-color: #df5e45;
-  --green-color: #70c0c9;
-  --black-color: #3f74bd;
-  --gray-color: #919191;
+  --second-color: #70c0c9;
+  --third-color: #3f74bd;
+  --fourth-color: #919191;
   --white-color: #ffffff;
 }
 
@@ -25,4 +25,7 @@ body {
 
   font-size: 1.6rem; /* 16px or style elements individually */
   min-height: 100vh; /* body - takes the full screen */
+
+  display: grid;
+  place-items: center;
 }
